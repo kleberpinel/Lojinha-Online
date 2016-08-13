@@ -1,1 +1,2 @@
-"_id","name","price","buyer","description","link"
+_id,name,price,buyer,description,link, sold
+1,Microondas,100.98, Maira , Um lindo Microondas da Brastemp Modelo Active Cromado, http://loja.brastemp.com.br/micro-ondas-brastemp-ative-30-litros-cinza-com-panela-a-vapor-de-silicone-bma30af/p?idsku=214, true

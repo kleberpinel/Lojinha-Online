@@ -7,6 +7,7 @@ class Photo
   
   has_mongoid_attached_file :image,:storage => :s3,
      :bucket => ENV['S3_BUCKET'],
+     :s3_region => ENV['AWS_REGION'],
      :s3_credentials => {
        :access_key_id => ENV['S3_KEY'],
        :secret_access_key => ENV['S3_SECRET']
@@ -18,4 +19,3 @@ class Photo
   validates_attachment_size :image, :less_than => 10.megabytes
   validates_attachment_content_type :image, :content_type => ['image/jpeg', 'image/png']
 end
-

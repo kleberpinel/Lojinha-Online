@@ -4,7 +4,6 @@ class PhotoImport
     importer.products.each do |product_id|
       product = Product.where(:_id => product_id).first
       product = create_product(product_id) unless product
-
       importer.populate(product, product_id) if product
     end
   end
@@ -44,6 +43,7 @@ class PhotoImport
 
     filenames = File.join(@filepath, to_path(id)) + "-*.*"
     photos = Dir.glob(filenames)
+
     photos.select{|photo| photo.match(/[^\/]*\/\d+-(\d+)\..+/)[1].to_i > indexed_count }.sort.each do |photo|   
       puts "Adding picture at '#{photo}' to product with id #{id}"
       product.photos << Photo.new(:image => File.new(photo))

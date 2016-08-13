@@ -1,6 +1,6 @@
 # encoding: UTF-8
 # pt-BR translations for Ruby on Rails
-"pt-BR":
+"pt_BR":
   # formatos de data e hora
   date:
     formats:
@@ -87,7 +87,7 @@
     currency:
       format:
         format: '%u %n'
-        unit: 'R$'
+        unit: '$'
         separator: ','
         delimiter: '.'
         precision: 2

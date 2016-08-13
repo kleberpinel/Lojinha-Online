@@ -11,6 +11,7 @@ class Product
   field :name, type: String
   field :price, type: Integer
   field :description, type: String
+  field :link, type: String
   field :buyer, type: String
   field :sold, type: Boolean, default: false
   field :paid, type: Boolean, default: false
