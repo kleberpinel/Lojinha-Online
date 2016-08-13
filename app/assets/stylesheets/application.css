@@ -15,11 +15,8 @@
 * {
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 }
-body {
-  background-color: #F0F0F0;
-}
 .top {
-  background: #1B1B24 image-url('../images/plane.png') no-repeat 5px 5px;
+  background: #1B1B24 url('/assets/vancouver.jpg') no-repeat 5px 5px;
   height: 230px;
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
   color: #D4D4FF;
