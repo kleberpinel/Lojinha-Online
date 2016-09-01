@@ -11,3 +11,4 @@ vendor/bundle/
 db/data/
 imagens/
 products.csv
+public/
