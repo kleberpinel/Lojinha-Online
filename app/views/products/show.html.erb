@@ -20,7 +20,7 @@
   <% end %>
   <% unless @product.link.blank? %>
     <h3>Mais Info</h3>
-    <div><p><%= link_to @product.link, @product.link %></p></div>
+    <div><p><%= link_to @product.link, @product.link, target: "_blank" %></p></div>
   <% end %>
 </div>
 

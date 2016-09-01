@@ -8,5 +8,10 @@ namespace :product do
   task :dump => :environment do
     puts ProductImport.dump
   end
+
+  desc "Clean Database and photos"
+  task :clean_all => :environment do
+    Product.destroy_all
+  end
 end
 

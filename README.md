@@ -2,3 +2,8 @@ Online simple store [![Dependency Status](https://gemnasium.com/hugocorbucci/Loj
 ===================
 
 This is a very simple rails application to help people set up a very simple store on the style 'Family moves'.
+
+
+rake product:clean_all
+rake product:load
+rake product:photo:load

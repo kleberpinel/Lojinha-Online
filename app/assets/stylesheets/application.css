@@ -16,11 +16,13 @@
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 }
 .top {
+  cursor: pointer;
   background: #1B1B24 url('/assets/vancouver.jpg') no-repeat 5px 5px;
   height: 230px;
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
   color: #D4D4FF;
   border-bottom: 1px solid #242E34;
+  background-position: center;
 }
 .top p {
   color: #C9C3E6;
