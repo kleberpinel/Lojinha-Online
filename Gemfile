@@ -7,6 +7,7 @@ gem 'mongoid', '~> 5.0'
 gem 'mongoid_search'
 gem 'mongoid_taggable', git: 'git://github.com/wilkerlucio/mongoid_taggable.git'
 gem 'mongoid-paperclip', require: 'mongoid_paperclip'
+gem 'uglifier', '>= 1.3.0'
 
 gem 'rake'
 gem 'aws-sdk'
