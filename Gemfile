@@ -16,6 +16,10 @@ gem 'thin'
 
 gem 'rails_12factor', group: :production
 
+group  :production do
+  gem 'dotenv-rails'
+end
+
 group :test, :development do
   gem 'rr'
   gem 'hoe'
