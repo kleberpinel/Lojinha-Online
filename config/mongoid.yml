@@ -1,11 +1,7 @@
 production:
   clients:
     default:
-      database: <%= ENV['MONGOID_DATABASE'] %>
-      hosts:
-        - <%= "ENV['MONGOHQ_URL']:ENV['MONGOID_PORT']" %>
-      username: <%= ENV['MONGOID_USERNAME'] %>
-      password: <%= ENV['MONGOID_PASSWORD'] %>
+      uri: <%= ENV['MONGODB_URI'] %>
 
 development:
   # Configure available database clients. (required)
