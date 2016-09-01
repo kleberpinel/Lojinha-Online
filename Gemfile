@@ -14,6 +14,8 @@ gem 'rake'
 gem 'aws-sdk'
 gem 'thin'
 
+gem 'rails_12factor', group: :production
+
 group :test, :development do
   gem 'rr'
   gem 'hoe'
